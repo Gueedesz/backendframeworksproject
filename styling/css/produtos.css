@@ -1,0 +1,90 @@
+.sair {
+    margin-left: 500px;
+
+}
+
+.textobase {
+       margin-left: 830px;
+   }
+
+.adicionarbtn {
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 100px;
+}
+
+.adicionarbtnmodal {
+    border-radius: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.apagarbtn {
+    margin-top: -28.5px;
+    margin-left: 220px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    top: 0;
+    transform: translateX(100%); /* Centralize horizontalmente */
+    width: 60%; /* Definir a largura da janela modal */
+    max-width: 600px; /* Largura máxima da janela modal */
+    height: auto; /* Altura automatica */
+    overflow: auto; /* Habilitar rolagem, se necessário */
+}
+
+.modal-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Cobrir toda a largura da tela */
+    height: 100%; /* Cobrir toda a altura da tela */
+    background-color: rgba(0, 0, 0, 0.4); /* Preto com opacidade */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; /* Defina a largura da modal-content como 100% */
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.formaddprodutos {
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.lixeira {
+    line-height: 0px; /* Defina a altura da linha igual à altura da célula da tabela */
+    text-align: center; /* Alinhe o conteúdo no centro horizontalmente */
+    margin-top: -25px;
+    margin-left: 100px;
+
+}

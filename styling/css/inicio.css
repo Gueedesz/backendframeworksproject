@@ -1,0 +1,31 @@
+.cadastrese {
+ margin-left: 25px;
+}
+
+.login {
+    margin-left: 600px;
+}
+
+.textobase {
+    margin-left: 830px;
+}
+
+.carousel {
+    width: 100vw; /* Largura igual à largura da viewport */
+    height: 300px; /* Altura desejada */
+    margin: auto; /* Centralizar o carrossel */
+}
+
+/* Estilos para as imagens dentro do carrossel */
+.carousel-inner img {
+    width: 100%; /* Largura total */
+    height: 400px; /* Altura fixa */
+    object-fit: cover; /* Redimensionar as imagens para cobrir todo o espaço do contêiner */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
