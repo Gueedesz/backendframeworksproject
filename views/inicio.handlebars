@@ -11,35 +11,35 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <div class="textobase">
-                    <li class="nav-item active">
-                        <a class="nav-link h5">Gerenciador de Produtos<span class="sr-only">(current)</span></a>
-                    </li>
-                </div>
-                <div class="login">
-                    <li class="nav-item">
-                        <a class="nav-link btn-success" href="/login">Login</a>
-                    </li>
-                </div>
-                <div class="cadastrese">
-                    <li class="nav-item">
-                        <a class="nav-link btn-warning" href="/login">Cadastre-se</a>
-                    </li>
-                </div>
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link h5">Gerenciador de Produtos<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <form class="form-inline">
+                    <a href="/login"><button class="btn btn-success mr-3" type="button">Login</button></a>
+                </form>
+            </li>
+            <li class="nav-item">
+                <form class="form-inline">
+                    <a href="/login"><button class="btn btn-warning" type="button">Cadastre-se</button></a>
+                </form>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-    <h1 style="color: black; text-align:center">Bem-Vindo!</h1>
-    <hr style="border-width: 5px; border-color:red">
+    <h1 style="color: black; text-align:center; margin-top: 10px;">Bem-Vindo!</h1>
+    <hr style="border-width: 5px; border-color:black">
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-top: px;">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-bottom: 81px; margin-top: -16px;">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="https://pluga.co/blog/wp-content/uploads/2022/06/gestao-de-produtos.png" alt="First slide">
@@ -62,106 +62,67 @@
     </div>
 
 
-  <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container my-5">
 
-  <footer class="bg-dark text-center text-lg-start text-white">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!--Grid row-->
-      <div class="row mt-4">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">See other books</h5>
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>Bestsellers</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>All books</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-user-edit fa-fw fa-sm me-2"></i>Our authors</a>
-            </li>
-          </ul>
+<!-- FOOTER COMECO -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Redes Sociais -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Esquerda -->
+    <div class="me-5 d-none d-lg-block align-items-center" id="agradecimento">
+      <span></span>
+    </div>
+    <!-- Esquerda -->
+  </section>
+  <!-- Redes Sociais -->
+
+  <!-- Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Gerenciador de Arquivos
+          </h6>
+          <p>
+            Otimizacao de seu tempo!
+          </p>
         </div>
-        <!--Grid column-->
+        <!-- Colunas -->
 
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Execution of the contract</h5>
 
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Supply</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-backspace fa-fw fa-sm me-2"></i>Returns</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Regulations</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Privacy policy</a>
-            </li>
-          </ul>
+       
+        <!-- Colunas -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Links Uteis</h6>
+          <p><i class="fas fa-home me-3"></i>
+            <a href="/">Inicio</a></p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            <a href="/login">Login</a>
+          </p>
+          <p><i class="fas fa-phone me-3"></i>
+           <a href="/login">Cadastro</a>
+          <p><i class="fas fa-print me-3"></i>
+            <a href="/sobrenos">Sobre Nos</a>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Publishing house</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-white">The BookStore</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">123 Street</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">05765 NY</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-briefcase fa-fw fa-sm me-2"></i>Send us a book</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Write to us</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Help in purchasing</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Check the order status</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Join the newsletter</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
+        <!-- Colunas -->
       </div>
-      <!--Grid row-->
+      <!-- Colunas -->
     </div>
-    <!-- Grid container -->
+  </section>
+  <!-- Links  -->
 
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2021 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="/">brenohelloworld.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer Fechamento -->
 
-</div>
-<!-- End of .container -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
