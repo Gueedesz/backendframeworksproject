@@ -51,6 +51,17 @@ app.get('/sair', (req, res) => {
 
 // Rota para adicionar um novo cadastro
 app.post("/add-cadastros", function(req, res) {
+
+    const nome= req.body.Nome;
+    const usuario = req.body.Usuario;
+    const senha = req.body.Senha;
+
+    if (!nome || !usuario || !senha) {
+        res.render('logins', {mensagemlogin: "Por favor, preencha todos os campos."});
+        return
+    }
+    else {
+
     Cadastros.create({
         // Supondo que os campos do formulário tenham os atributos "Nome", "Usuario" e "Senha"
         Nome: req.body.Nome,
@@ -63,6 +74,7 @@ app.post("/add-cadastros", function(req, res) {
         // Se houver um erro, renderiza novamente a página de cadastro com a mensagem de erro
         res.render('logins', { mensagemcadastro: "Erro ao realizar cadastro: " + erro });
     });
+}
 });
 
 
@@ -70,6 +82,11 @@ app.post("/add-cadastros", function(req, res) {
 app.post("/add-logins", function(req, res) {
     const usuario = req.body.Usuario;
     const senha = req.body.Senha;
+
+    if (!usuario || !senha) {
+        res.render('logins', {mensagemlogin: "Por favor, preencha todos os campos."});
+        return;
+    }
     
     // Consulta ao banco de dados para encontrar um usuário com o mesmo nome de usuário e senha
     Cadastros.findOne({
