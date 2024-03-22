@@ -24,6 +24,12 @@ app.use(session({
     saveUninitialized: true
 }));
 
+
+app.get('/sobrenos', (req, res) => {
+    res.render('sobrenos')
+})
+
+
 // Rota para renderizar a página de início
 app.get('/', (req, res) => {
     res.render('inicio', { style: 'inicio.css' });
