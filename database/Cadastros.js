@@ -13,10 +13,10 @@ const Cadastros = db.sequelize.define('cadastros', {
     },
 });
 
-// Cadastros.sync({ force: true }).then(() => {
-   // console.log('Tabela Cadastros sincronizada.');
+ //Cadastros.sync({ force: true }).then(() => {
+    //console.log('Tabela Cadastros sincronizada.');
 // }).catch(err => {
-    //console.error('Erro ao sincronizar tabela Cadastros:', err);
+   // console.error('Erro ao sincronizar tabela Cadastros:', err);
 //});
 
 module.exports = Cadastros;

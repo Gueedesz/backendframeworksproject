@@ -9,10 +9,10 @@ const Logins = db.sequelize.define('logins', {
     },
 });
 
-// Logins.sync({ force: true }).then(() => {
+ //Logins.sync({ force: true }).then(() => {
    // console.log('Tabela Logins sincronizada.');
-// }).catch(err => {
-  //  console.error('Erro ao sincronizar tabela Logins:', err);
+ //}).catch(err => {
+   // console.error('Erro ao sincronizar tabela Logins:', err);
 // });
 
 module.exports = Logins;
